@@ -1,8 +1,8 @@
 {
-    "name": "vscode-extension-template",
-    "displayName": "vscode-extension-template",
-    "description": "vscode-extension-template",
-    "version": "0.0.9",
+    "name": "vscode-switch-wordwrap",
+    "displayName": "vscode-switch-wordwrap",
+    "description": "vscode-switch-wordwrap",
+    "version": "0.0.1",
     "license": "MIT",
     "publisher": "TsubasaYeung",
     "engines": {
@@ -11,7 +11,7 @@
     "main": "./out/extension.js",
     "repository": {
         "type": "git",
-        "url": "https://github.com/yzpTsubasa/vscode-extension-template.git"
+        "url": "https://github.com/yzpTsubasa/vscode-switch-wordwrap.git"
     },
     "activationEvents": [
         "*"
@@ -19,28 +19,16 @@
     "icon": "images/icon.png",
     "keywords": [],
     "contributes": {
-        "menus": {
-            "editor/title": [
-                {
-                    "command": "vscode-extension-template.demo",
-                    "group": "navigation@1"
-                }
-            ]
-        },
-        "commands": [
-            {
-                "command": "vscode-extension-template.demo",
-                "title": "Execute",
-                "icon": {
-                    "light": "images/execute@light.svg",
-                    "dark": "images/execute@dark.svg"
-                }
-            }
-        ],
         "configuration": [
             {
-                "title": "vscode-extension-template",
-                "properties": {}
+                "title": "vscode-switch-wordwrap",
+                "properties": {
+                    "vscode-switch-wordwrap.applyLanguageIds": {
+						"type": "array",
+						"default": [],
+						"description": "applyLanguageIds"
+					}
+                }
             }
         ]
     },
