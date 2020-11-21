@@ -2,7 +2,7 @@
     "name": "vscode-switch-wordwrap",
     "displayName": "vscode-switch-wordwrap",
     "description": "vscode-switch-wordwrap",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "license": "MIT",
     "publisher": "TsubasaYeung",
     "engines": {
@@ -24,10 +24,10 @@
                 "title": "vscode-switch-wordwrap",
                 "properties": {
                     "vscode-switch-wordwrap.applyLanguageIds": {
-						"type": "array",
-						"default": [],
-						"description": "applyLanguageIds"
-					}
+                        "type": "array",
+                        "default": [],
+                        "description": "applyLanguageIds"
+                    }
                 }
             }
         ]
